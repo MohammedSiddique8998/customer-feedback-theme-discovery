@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+data/private/
+data/raw/
+outputs/

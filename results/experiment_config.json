@@ -1,0 +1,9 @@
+{
+  "data_path": "data\\sample_sentences.tsv",
+  "output_dir": "results",
+  "min_k": 2,
+  "max_k": 6,
+  "min_df": 2,
+  "max_features": 120,
+  "seed": 42
+}

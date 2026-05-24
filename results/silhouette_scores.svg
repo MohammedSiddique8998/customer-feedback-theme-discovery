@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500" viewBox="0 0 820 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="38" font-family="Arial" font-size="24" font-weight="700" fill="#111827">Silhouette Score by K</text>
+<line x1="70" y1="430" x2="750" y2="430" stroke="#111827"/>
+<line x1="70" y1="70" x2="70" y2="430" stroke="#111827"/>
+<rect x="92.1" y="223.0" width="88.4" height="207.0" fill="#2563eb"/>
+<text x="131.3" y="450" font-family="Arial" font-size="12" fill="#374151">2</text>
+<text x="88.1" y="215.0" font-family="Arial" font-size="11" fill="#111827">0.12</text>
+<rect x="228.1" y="156.5" width="88.4" height="273.5" fill="#2563eb"/>
+<text x="267.3" y="450" font-family="Arial" font-size="12" fill="#374151">3</text>
+<text x="224.1" y="148.5" font-family="Arial" font-size="11" fill="#111827">0.16</text>
+<rect x="364.1" y="70.0" width="88.4" height="360.0" fill="#2563eb"/>
+<text x="403.3" y="450" font-family="Arial" font-size="12" fill="#374151">4</text>
+<text x="360.1" y="62.0" font-family="Arial" font-size="11" fill="#111827">0.21</text>
+<rect x="500.1" y="103.8" width="88.4" height="326.2" fill="#2563eb"/>
+<text x="539.3" y="450" font-family="Arial" font-size="12" fill="#374151">5</text>
+<text x="496.1" y="95.8" font-family="Arial" font-size="11" fill="#111827">0.19</text>
+<rect x="636.1" y="143.3" width="88.4" height="286.7" fill="#2563eb"/>
+<text x="675.3" y="450" font-family="Arial" font-size="12" fill="#374151">6</text>
+<text x="632.1" y="135.3" font-family="Arial" font-size="11" fill="#111827">0.17</text>
+<text x="402.0" y="478" font-family="Arial" font-size="14" fill="#374151">K</text>
+</svg>

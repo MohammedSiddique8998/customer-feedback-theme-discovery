@@ -1,0 +1,91 @@
+{
+  "dataset": {
+    "rows": 40,
+    "average_sentence_words": 12.1,
+    "minimum_sentence_words": 10,
+    "maximum_sentence_words": 16
+  },
+  "vectorisation": {
+    "method": "TF-IDF",
+    "vocabulary_size": 78,
+    "matrix_shape": [
+      40,
+      78
+    ]
+  },
+  "clustering": {
+    "algorithm": "K-Means",
+    "k_values_tested": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "silhouette_scores": {
+      "2": 0.1214,
+      "3": 0.1604,
+      "4": 0.2111,
+      "5": 0.1913,
+      "6": 0.1681
+    },
+    "selected_k": 4,
+    "selected_k_silhouette": 0.2111,
+    "inertia": 27.1098,
+    "cluster_sizes": {
+      "0": 10,
+      "1": 10,
+      "2": 10,
+      "3": 10
+    },
+    "top_terms": {
+      "0": [
+        "data",
+        "analytics",
+        "reporting",
+        "dashboards",
+        "metrics",
+        "business",
+        "analysis",
+        "models"
+      ],
+      "1": [
+        "career",
+        "portfolio",
+        "evidence",
+        "cv",
+        "project",
+        "skills",
+        "applicants",
+        "interview"
+      ],
+      "2": [
+        "energy",
+        "grid",
+        "renewable",
+        "consumption",
+        "demand",
+        "electricity",
+        "efficiency",
+        "carbon"
+      ],
+      "3": [
+        "clinical",
+        "patient",
+        "treatment",
+        "medication",
+        "healthcare",
+        "safety",
+        "medical",
+        "imaging"
+      ]
+    }
+  },
+  "visualisation": {
+    "method": "PCA",
+    "explained_variance_ratio_first_two_components": [
+      0.0939,
+      0.0894
+    ]
+  }
+}
