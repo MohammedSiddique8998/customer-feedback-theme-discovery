@@ -1,6 +1,6 @@
 # Notebook Guidance
 
-The rough coursework notebook/submission files are not published. They may contain assessment-specific instructions, private output expectations or university material.
+The rough draft notebook/submission files are not published. They may contain private instructions, output expectations or restricted source material.
 
 Use the scripts in `src/` as the source of truth. A portfolio-safe notebook can be added later with:
 

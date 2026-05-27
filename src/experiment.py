@@ -36,7 +36,7 @@ def select_best_k(features: np.ndarray, min_k: int, max_k: int, seed: int) -> tu
     return best_k, scores, models
 
 
-def write_cluster_assignments(records, labels: np.ndarray, output_path: Path) -> None:
+def write_cluster_labels(records, labels: np.ndarray, output_path: Path) -> None:
     with output_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.writer(handle)
         writer.writerow(["ID", "cluster", "sentence"])
@@ -65,7 +65,7 @@ def run_experiment(config: ExperimentConfig) -> dict:
     coordinates, explained_variance = pca_2d(features)
     cluster_terms = top_terms_by_cluster(features, best_model.labels, vocabulary)
 
-    write_cluster_assignments(records, best_model.labels, config.output_dir / "cluster_assignments.csv")
+    write_cluster_labels(records, best_model.labels, config.output_dir / "cluster_labels.csv")
     write_cluster_terms(cluster_terms, config.output_dir / "cluster_terms.csv")
     save_silhouette_svg(scores, config.output_dir / "silhouette_scores.svg")
     save_scatter_svg(coordinates, best_model.labels, config.output_dir / "pca_cluster_map.svg", "TF-IDF K-Means Clusters")

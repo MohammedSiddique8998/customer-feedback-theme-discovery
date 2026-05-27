@@ -1,8 +1,8 @@
-# Data Mining Text Clustering
+# Customer Feedback Theme Discovery
 
-Recruiter-ready data mining and visualisation project for unsupervised sentence clustering.
+Recruiter-ready customer text intelligence project for unsupervised feedback clustering.
 
-This repository is a clean portfolio version inspired by a rough Data Mining and Visualisation assignment. It does not include university briefs, answer sheets, grading feedback, private datasets, messy submission files or coursework PDFs.
+This repository is a clean portfolio implementation of an unsupervised text clustering workflow. It does not include private briefs, answer sheets, grading feedback, private datasets, messy submission files or restricted documents.
 
 ## Problem Statement
 
@@ -19,7 +19,7 @@ This project builds a reproducible text clustering workflow using:
 
 ## Dataset
 
-The original assignment used a private TSV sentence dataset with `ID` and `Sentence` columns. That dataset is not published in this repository.
+The original internal prototype used a private TSV sentence dataset with `ID` and `Sentence` columns. That dataset is not published in this repository.
 
 To keep the project runnable and safe to share, this repository includes a small synthetic demo corpus:
 
@@ -139,7 +139,7 @@ Private datasets should be kept under `data/private/`, which is ignored by Git.
 ## Repository Structure
 
 ```text
-data-mining-text-clustering/
+customer-feedback-theme-discovery/
   README.md
   requirements.txt
   data/
@@ -157,7 +157,7 @@ data-mining-text-clustering/
     experiment_card.md
   results/
     metrics.json
-    cluster_assignments.csv
+    cluster_labels.csv
     cluster_terms.csv
     silhouette_scores.svg
     pca_cluster_map.svg
@@ -181,6 +181,6 @@ data-mining-text-clustering/
 - Add automatic cluster naming from top terms.
 - Add an interactive cluster review dashboard.
 
-## Academic Integrity Note
+## Public Sharing Note
 
-This repository is designed as a public portfolio project. It intentionally excludes private university material, raw assignment submissions, grading material and restricted datasets.
+This repository is designed as a public portfolio project. It intentionally excludes private source material, raw draft submissions, review material and restricted datasets.

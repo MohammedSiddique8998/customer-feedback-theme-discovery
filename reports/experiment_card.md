@@ -2,7 +2,7 @@
 
 ## Project
 
-Data Mining and Visualisation: Text Clustering
+Customer Feedback Theme Discovery
 
 ## Intended Use
 
@@ -10,7 +10,7 @@ Portfolio demonstration of unsupervised text clustering, feature representation,
 
 ## Dataset
 
-The original assignment used a private TSV sentence dataset that is not included in this public repository. The committed outputs are generated from a small synthetic demo corpus in `data/sample_sentences.tsv` so the workflow can be inspected and rerun safely.
+The original internal prototype used a private TSV sentence dataset that is not included in this public repository. The committed outputs are generated from a small synthetic demo corpus in `data/sample_sentences.tsv` so the workflow can be inspected and rerun safely.
 
 Users may replace the demo data with a permitted TSV file containing:
 
