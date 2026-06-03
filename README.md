@@ -1,5 +1,7 @@
 # Customer Feedback Theme Discovery
 
+![Customer Feedback Theme Discovery project banner](assets/readme-hero.png)
+
 Recruiter-ready customer text intelligence project for unsupervised feedback clustering.
 
 This repository is a clean portfolio implementation of an unsupervised text clustering workflow. It does not include private briefs, answer sheets, grading feedback, private datasets, messy submission files or restricted documents.
